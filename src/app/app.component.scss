@@ -1,12 +1,8 @@
 @use "sass:math";
-@import '../styles.scss';
-
-// $totalDivs: 0;
 
 :root {
   --PI: 3.14159265358979; 
 }
-
 
 :host {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -92,7 +88,6 @@ main {
         rgba(47, 201, 226, 1) 100%,
     );
     width: 3.5rem;
-    // height: 350px + ($i * 10) * 10px + 10;
     height: 2000px;
     border-radius: 30rem;
   
@@ -106,38 +101,5 @@ main {
   height: 100vh;
   display:none;
   flex-direction: row;
-  // column-gap: 0.01em;
-  // visibility: hidden;
   z-index:9999;
 }
-
-
-// .container.animated {
-  //   display:flex;
-  //   flex-direction: row;
-  //   column-gap: 0.2em;
-  //   // animation: example 3s forwards; 
-  //   -webkit-animation-name: example;
-  //   -webkit-animation-duration: 3s;
-  //   -webkit-animation-iteration-count: forwards;
-  //   animation-name: example;
-  //   animation-duration: 3s;
-  //   animation-iteration-count: forwards;
-  // }
-  
-  // @keyframes example {
-  //   from  {
-  //     -webkit-transform: rotate(-50deg) translate(0px,2000px);
-  //     -moz-transform: rotate(-50deg) translate(0px,2000px);
-  //     -o-transform: rotate(-50deg) translate(0px,2000px);
-  //     transform: rotate(-50deg) translate(0px,2000px)
-  //   }
-  
-  //  to {
-  //   -webkit-transform: rotate(-50deg) translate(0px, -5000px);
-  //   -moz-transform: rotate(-50deg) translate(0px, -5000px);
-  //   -o-transform: rotate(-50deg) translate(0px, -5000px);
-  //     transform: rotate(-50deg) translate(0px, -5000px);
-  //   }
-  
-  // }

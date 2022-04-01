@@ -1,20 +1,7 @@
 import { Component, OnInit, ViewChild, AfterContentInit, AfterViewInit } from '@angular/core';
 import { RouterOutlet, Router, NavigationStart, NavigationEnd, ActivatedRoute } from '@angular/router';
+// To activate other animations uncomment line 29 and add below animation into the animations array.
 import { fader, slider, transform, inBetweenAnimation } from './route-animations';
-import {
-  trigger,
-  transition,
-  style,
-  query,
-  group,
-  animateChild,
-  animate,
-  state,
-  keyframes,
-} from '@angular/animations';
-
-type AnimationState = 'animationStarted' | 'none';
-
 
 @Component({
   selector: 'app-root',
@@ -27,7 +14,7 @@ type AnimationState = 'animationStarted' | 'none';
 })
 export class AppComponent {
 
-  public animationState = 'none';
+  public animationState: 'animationStarted' | 'none' = 'none';
 
   public animationDoneHandler(): void {
     this.animationState ='none';
