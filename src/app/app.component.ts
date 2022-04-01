@@ -1,9 +1,6 @@
 import { Component, OnInit, ViewChild, AfterContentInit, AfterViewInit } from '@angular/core';
 import { RouterOutlet, Router, NavigationStart, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { fader, slider, transform, inBetweenAnimation } from './route-animations';
-import { filter, map } from 'rxjs/operators'
-import { BehaviorSubject } from 'rxjs'
-
 import {
   trigger,
   transition,
