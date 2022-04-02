@@ -5,9 +5,10 @@ import { ContactComponent } from './contact/contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent},
   { path: 'contact', component: ContactComponent, data: { animation: 'isRight' } },
   { path: 'portfolio', component: PortfolioComponent, data: { animation: 'isLeft' } },
+  { path: '',   redirectTo: '/home', pathMatch: 'full' }, 
 ];
 
 @NgModule({
