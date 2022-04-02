@@ -1,6 +1,6 @@
 # AngularAnimation
 
- [Quick preview](https://62476ad75275270008fd401b--majestic-lolly-8f1c56.netlify.app/) 
+ [Quick preview](https://6248915381342300087571a4--majestic-lolly-8f1c56.netlify.app/home) 
 
 ## Simple angular project with route animations made by @fazli.zekiqi
 
